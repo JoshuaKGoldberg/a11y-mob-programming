@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+}
+
+h1 {
+  color: #777;
+}
+
+.card {
+  color: #999;
+  padding: 2em;
+}
+
+.clickers {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem auto;
+  width: 25rem;
+}
+
+.clicker {
+  background: #f3f3f3;
+  border-radius: 1rem;
+  border: 1px solid #aaa;
+  color: #777;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  outline: none;
+  padding: 0.75rem 1.5rem;
+  width: 50%;
+}
+
+.clicker:focus {
+  outline: none;
+}
+
+.instructions {
+  color: #999;
+}
